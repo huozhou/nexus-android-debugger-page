@@ -1,0 +1,44 @@
+Proprietary License
+
+Copyright (c) 2026 Nexus: Android Debugger. All rights reserved.
+
+This software, including the VS Code extension, supporting services, source code,
+documentation, assets, and bundled materials in this repository, is proprietary
+and confidential.
+
+Permission is granted to install and use the published extension only in
+accordance with the applicable commercial terms, subscription terms, purchase
+terms, or other written agreement provided by the copyright holder.
+
+Except as expressly permitted by the copyright holder in writing, you may not:
+
+1. copy, modify, adapt, translate, or create derivative works from this software;
+2. redistribute, sublicense, lease, rent, sell, resell, assign, or otherwise
+   transfer this software or access to it;
+3. reverse engineer, decompile, disassemble, or otherwise attempt to derive the
+   source code, underlying ideas, algorithms, file formats, or non-public APIs,
+   except to the extent such restriction is prohibited by applicable law;
+4. remove, alter, or obscure any copyright, trademark, or other proprietary
+   notices;
+5. use this software to build or assist in building a competing product or
+   service;
+6. bypass, disable, or interfere with any licensing, payment, activation,
+   metering, access control, or security mechanism.
+
+No ownership rights are transferred under this license. All rights not expressly
+granted are reserved by the copyright holder.
+
+This software is provided "as is" without warranties of any kind, express,
+implied, or statutory, including without limitation any implied warranties of
+merchantability, fitness for a particular purpose, title, and non-infringement,
+to the maximum extent permitted by applicable law.
+
+To the maximum extent permitted by applicable law, the copyright holder shall
+not be liable for any indirect, incidental, special, consequential, exemplary,
+or punitive damages, or for any loss of profits, revenue, data, business, or
+goodwill, arising out of or related to the use of this software, even if advised
+of the possibility of such damages.
+
+If you need commercial licensing, redistribution rights, OEM terms, or any other
+use not expressly permitted above, contact the copyright holder for written
+permission.

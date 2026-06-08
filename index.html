@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus: Android Debugger — Debug Android C/C++ native code in VS Code</title>
+  <meta name="description" content="Nexus brings fast, light, and stable Android C/C++ native debugging into VS Code. Attach in a couple of clicks. Supports CMake-based native projects." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nexus: Android Debugger" />
+  <meta property="og:description" content="Debug Android C/C++ native code right inside VS Code — light, fast, and stable." />
+  <meta property="og:image" content="https://huozhou.github.io/nexus-android-debugger-page/assets/vscode-extension-demo.gif" />
+  <meta property="og:url" content="https://huozhou.github.io/nexus-android-debugger-page/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <img src="assets/icon.png" alt="Nexus icon" width="28" height="28" />
+      <span>Nexus</span>
+    </a>
+    <nav class="nav">
+      <a href="#features">Features</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#requirements">Requirements</a>
+      <a href="#support">Support</a>
+      <a class="nav-cta" href="https://marketplace.visualstudio.com/items?itemName=northwind.nexus-android-debugger" target="_blank" rel="noopener">Install</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="badge">VS Code Extension</span>
+        <h1>Debug Android <span class="accent">C/C++ native code</span> right inside VS Code</h1>
+        <p class="lede">Light, fast, and stable. Attach in a couple of clicks and keep working in your existing CMake / incremental-build workflow — no more waiting on a heavy IDE.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://marketplace.visualstudio.com/items?itemName=northwind.nexus-android-debugger" target="_blank" rel="noopener">Install from Marketplace</a>
+          <a class="btn btn-ghost" href="https://github.com/huozhou/nexus-android-debugger-page/issues" target="_blank" rel="noopener">Report an issue</a>
+        </div>
+        <p class="sub">Supports CMake-based native projects · 10 languages</p>
+      </div>
+      <div class="hero-media">
+        <img src="assets/vscode-extension-demo.gif" alt="Nexus VS Code extension demo: pick a process, attach, and hit breakpoints on device" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="why">
+      <h2>Native debugging shouldn't be heavy</h2>
+      <p class="section-lede">If you debug Android native code in Android Studio, this probably sounds familiar:</p>
+      <div class="pain-grid">
+        <div class="pain-card">
+          <h3>Slow &amp; laggy IDE</h3>
+          <p>Larger projects make the IDE crawl, and just keeping it open is heavy.</p>
+        </div>
+        <div class="pain-card">
+          <h3>Slow breakpoints</h3>
+          <p>Breakpoints take their time to hit, and stepping through code drags.</p>
+        </div>
+        <div class="pain-card">
+          <h3>Dropped sessions</h3>
+          <p>Debug sessions disconnect, so you have to start over from scratch.</p>
+        </div>
+      </div>
+      <p class="why-answer">Nexus brings native debugging into VS Code instead — light, responsive, with excellent C/C++ support, and the full debugging experience: breakpoints, variables, call stack, watch, and the debug console.</p>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+      <h2>What it does</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Attach in a couple of clicks</h3>
+          <p>Fill in a little configuration once, pick the process, and you're debugging on the device.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🪶</div>
+          <h3>Stays out of your way</h3>
+          <p>A lightweight, responsive, and stable connection to your device.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>Localized UI</h3>
+          <p>Use the extension in your own language — 10 languages supported, following your VS Code display language.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section id="screenshots" class="screenshots">
+      <h2>See it in action</h2>
+      <figure class="shot">
+        <img src="assets/vscode-extension-demo.gif" alt="Choose a process, attach, and hit breakpoints on device" loading="lazy" />
+        <figcaption>Pick a process, attach, and hit breakpoints on device.</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="assets/settings-panel.png" alt="Nexus settings panel showing NDK path and debug options" loading="lazy" />
+        <figcaption>The settings panel: set your NDK path and debug options.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Requirements -->
+    <section id="requirements" class="requirements">
+      <h2>Requirements</h2>
+      <ul class="req-list">
+        <li>A connected Android device or emulator with USB debugging enabled, running a debuggable build</li>
+        <li>Android NDK installed</li>
+        <li>A CMake-based native project</li>
+      </ul>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages">
+      <h2>Available in your language</h2>
+      <div class="lang-chips">
+        <span>English</span><span>简体中文</span><span>繁體中文</span><span>日本語</span><span>한국어</span>
+        <span>Deutsch</span><span>Français</span><span>Español</span><span>Русский</span><span>Português</span>
+      </div>
+    </section>
+
+    <!-- Support -->
+    <section id="support" class="support">
+      <h2>Feedback &amp; support</h2>
+      <p class="section-lede">Found a bug or have an idea? We'd love to hear from you.</p>
+      <div class="cta-row center">
+        <a class="btn btn-primary" href="https://github.com/huozhou/nexus-android-debugger-page/issues/new" target="_blank" rel="noopener">Open a GitHub issue</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="Nexus icon" width="22" height="22" />
+        <span>Nexus: Android Debugger</span>
+      </div>
+      <nav class="footer-links">
+        <a href="https://marketplace.visualstudio.com/items?itemName=northwind.nexus-android-debugger" target="_blank" rel="noopener">Marketplace</a>
+        <a href="https://github.com/huozhou/nexus-android-debugger-page" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/huozhou/nexus-android-debugger-page/issues" target="_blank" rel="noopener">Issues</a>
+      </nav>
+    </div>
+    <p class="copyright">Made for developers who debug Android native code.</p>
+  </footer>
+</body>
+</html>
